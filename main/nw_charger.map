@@ -1,0 +1,492 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 main.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+LOAD main.o
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/librt.so
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libdl.so
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libpthread.so
+START GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../../arm_linux_4.8/lib/libpthread.so.0
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../../arm_linux_4.8/usr/lib/libpthread_nonshared.a
+END GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libstdc++.so
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libm.so
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libgcc_s.so
+START GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libgcc_s.so.1
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a
+END GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.so
+START GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../../arm_linux_4.8/lib/libc.so.0
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../../arm_linux_4.8/usr/lib/uclibc_nonshared.a
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../../arm_linux_4.8/lib/ld-uClibc.so.0
+END GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libgcc_s.so
+START GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libgcc_s.so.1
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a
+END GROUP
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+LOAD /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+                0x00008000                PROVIDE (__executable_start, 0x8000)
+                0x00008114                . = (0x8000 + SIZEOF_HEADERS)
+
+.interp         0x00008114       0x14
+ *(.interp)
+ .interp        0x00008114       0x14 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00008128       0xdc
+ *(.hash)
+ .hash          0x00008128       0xdc /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00008204      0x240
+ *(.dynsym)
+ .dynsym        0x00008204      0x240 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.dynstr         0x00008444      0x217
+ *(.dynstr)
+ .dynstr        0x00008444      0x217 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.gnu.version    0x0000865c       0x48
+ *(.gnu.version)
+ .gnu.version   0x0000865c       0x48 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.gnu.version_d  0x000086a4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.gnu.version_r  0x000086a4       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000086a4       0x40 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.rel.dyn        0x000086e4        0x0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x000086e4                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x000086e4                PROVIDE (__rel_iplt_end, .)
+                0x000086e4                PROVIDE (__rela_iplt_start, .)
+                0x000086e4                PROVIDE (__rela_iplt_end, .)
+
+.rela.dyn       0x000086e4        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                0x000086e4                PROVIDE (__rel_iplt_start, .)
+                0x000086e4                PROVIDE (__rel_iplt_end, .)
+                0x000086e4                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                0x000086e4                PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x000086e4       0x78
+ *(.rel.plt)
+ .rel.plt       0x000086e4       0x78 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000875c       0x10
+ *(SORT(.init))
+ .init          0x0000875c        0xc /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+                0x0000875c                _init
+ .init          0x00008768        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+.plt            0x0000876c       0xc8
+ *(.plt)
+ .plt           0x0000876c       0xc8 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x0000878c                strftime
+                0x00008798                gettimeofday
+                0x000087a4                strcat
+                0x000087b0                std::ios_base::Init::Init()@@GLIBCXX_3.4
+                0x000087bc                __uClibc_main
+                0x000087c8                strlen
+                0x000087d4                std::ios_base::Init::~Init()@@GLIBCXX_3.4
+                0x000087e0                localtime_r
+                0x000087ec                select
+                0x000087f8                time
+                0x00008804                memset
+                0x00008810                abort
+                0x0000881c                sprintf
+
+.iplt           0x00008834        0x0
+ *(.iplt)
+ .iplt          0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+
+.text           0x00008834      0x30c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ .text.exit     0x00008834       0x10 main.o
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00008844       0x18 main.o
+                0x00008844                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000885c       0x3c /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x0000885c                _start
+ .text          0x00008898        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+ .text          0x00008898      0x118 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .text          0x000089b0      0x190 main.o
+                0x000089b0                fill_str_spare_tail_space(char*, int, char)
+                0x000089f4                msleep(int)
+                0x00008aa0                getcur_time(char*)
+ .text          0x00008b40        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .text          0x00008b40        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x00008b40       0x10
+ *(SORT(.fini))
+ .fini          0x00008b40        0xc /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+                0x00008b40                _fini
+ .fini          0x00008b4c        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+                0x00008b50                PROVIDE (__etext, .)
+                0x00008b50                PROVIDE (_etext, .)
+                0x00008b50                PROVIDE (etext, .)
+
+.rodata         0x00008b50       0x1c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00008b50       0x1c main.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00008b6c        0xc
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00008b6c        0xc main.o
+ .ARM.extab.text.startup
+                0x00008b78        0x0 main.o
+ .ARM.extab.text.exit
+                0x00008b78        0x0 main.o
+                0x00008b78                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00008b78       0x18
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00008b80       0x10 main.o
+                                 0x18 (size before relaxing)
+ .ARM.exidx.text.startup
+                0x00008b80        0x0 main.o
+                                 0x10 (size before relaxing)
+ .ARM.exidx.text.exit
+                0x00008b78        0x8 main.o
+                0x00008b90                PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr   0x00008b90        0x0
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+.eh_frame       0x00008b90        0x4
+ *(.eh_frame)
+ .eh_frame      0x00008b90        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .eh_frame      0x00008b90        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00008b94                . = (ALIGN (0x8000) - ((0x8000 - .) & 0x7fff))
+                0x00010b94                . = DATA_SEGMENT_ALIGN (0x8000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00010b94        0x0
+                0x00010b94                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00010b94                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00010b94        0x8
+                0x00010b94                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00010b94        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .init_array    0x00010b98        0x4 main.o
+                0x00010b9c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00010b9c        0x8
+                0x00010b9c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x00010b9c        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .fini_array    0x00010ba0        0x4 main.o
+                0x00010ba4                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00010ba4        0x4
+ *(.jcr)
+ .jcr           0x00010ba4        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .jcr           0x00010ba4        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00010ba8      0x100
+ *(.dynamic)
+ .dynamic       0x00010ba8      0x100 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x00010ba8                _DYNAMIC
+                0x00010ca8                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x00010ca8       0x48
+ *(.got.plt)
+ .got.plt       0x00010ca8       0x48 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x00010ca8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ *(.got)
+ .got           0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ *(.igot)
+
+.data           0x00010cf0        0x8
+                0x00010cf0                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00010cf0        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+                0x00010cf0                data_start
+                0x00010cf0                __data_start
+ .data          0x00010cf4        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+ .data          0x00010cf4        0x4 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+                0x00010cf4                __dso_handle
+ .data          0x00010cf8        0x0 main.o
+ .data          0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .data          0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+.tm_clone_table
+                0x00010cf8        0x0
+ .tm_clone_table
+                0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .tm_clone_table
+                0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+
+.data1
+ *(.data1)
+                0x00010cf8                _edata = .
+                0x00010cf8                PROVIDE (edata, .)
+                0x00010cf8                . = .
+                0x00010cf8                __bss_start = .
+                0x00010cf8                __bss_start__ = .
+
+.bss            0x00010cf8       0x20
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ .bss           0x00010cf8        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+ .bss           0x00010cf8       0x1c /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .bss           0x00010d14        0x4 main.o
+ .bss           0x00010d18        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .bss           0x00010d18        0x0 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+ *(COMMON)
+                0x00010d18                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00010d18                _bss_end__ = .
+                0x00010d18                __bss_end__ = .
+                0x00010d18                . = ALIGN (0x4)
+                0x00010d18                . = SEGMENT_START ("ldata-segment", .)
+                0x00010d18                . = ALIGN (0x4)
+                0x00010d18                __end__ = .
+                0x00010d18                _end = .
+                0x00010d18                PROVIDE (end, .)
+                0x00010d18                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x3f
+ *(.comment)
+ .comment       0x00000000       0x2e /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+                                 0x2f (size before relaxing)
+ .comment       0x0000002e       0x11 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 main.o
+ .comment       0x00000000       0x12 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .comment       0x00000000       0x2f /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x22 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+ .ARM.attributes
+                0x00000022       0x22 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+ .ARM.attributes
+                0x00000044       0x32 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbegin.o
+ .ARM.attributes
+                0x00000076       0x32 main.o
+ .ARM.attributes
+                0x000000a8       0x32 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+ .ARM.attributes
+                0x000000da       0x22 /opt/nuc/tool/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(nw_charger elf32-littlearm)
